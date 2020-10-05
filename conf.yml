@@ -1,0 +1,21 @@
+es_config:
+  nodes: [node1]
+  port: 9200
+  use_ssl: False
+  verify_certs: True
+  ca_cert: srv.pem
+  pattern: projectx-
+  shards: 1
+  replicas: 0
+  user: projectx
+  password: projectx
+
+thousandeyes:
+  base_url: https://api.thousandeyes.com/v6/
+  user: user@gmail.com
+  password: pass
+  window: 5w
+
+livenx:
+  base_url: https://webtestdrive.liveaction.com:8093/v1/
+  token: token
